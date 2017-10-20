@@ -1,0 +1,15 @@
+<cs>::=<s> <conj> <s>
+<s>::=<np> <vp>
+<np>::=<art> <adjp> <n>|<pn>|<adjp> <pn>
+<adjp>::=<adj>|<adj> <adjp>
+<vp>::=<v>|<adv> <v>|<adv> <v> <pp>
+<pp>::=<pro> <art> <inan>
+<conj>::=; however,|; additionally,|; on the contray,|; instead,
+<art>::=a|the
+<n>::=boy|cow|donkey|father|moose|pilot
+<pn>::=Tom|Jerry|Marty|Chris|Jow|Jessica|
+<adj>::=tall|short|fast|quiet|enigmatic
+<v>::=ran|sprinted|mosied|jumped|flew
+<adv>::=quickly|tastefully|tactically|slowly|creatively|haphazardly
+<pro>::=around|across|above|inside|about
+<inan>::=car|barn|lake|bus|house|store
